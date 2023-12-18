@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tovars</title>
+    <link rel="stylesheet" href="{% static 'css/' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1 class="title">{{ tovar.title }}</h1>
+    </div>
+    <div>
+        <div>
+            <h1>{{ tovar.sell }}</h1>
+        </div>
+    </div>
+    <a href="/">Back</a>
+</body>
+</html>

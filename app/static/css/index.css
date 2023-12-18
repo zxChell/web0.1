@@ -1,0 +1,26 @@
+body {
+    font-family: Montserrat;
+    background-color: #12661e;
+}
+
+.content__block {
+    margin: 10px;
+}
+
+.title, .content {
+    font-size: 17.8px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tovar {
+    margin-bottom: 20px;
+    margin-top: 25px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    border: 6px solid #eeff00;
+}
